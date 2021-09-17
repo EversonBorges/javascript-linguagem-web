@@ -1,0 +1,27 @@
+JavaScript
+
+selector de classe = .classe
+selecotr de id = #id
+document - Representação do DOM ou Document Object Model, que é a representação da nossa página HTML para o navegador, que é utilizada pelo Javascript para manipular a página.
+document.querySelector(".titulo") - Busca um dado do html no DOM.(pode ser buscado pelo ID ou um selector de CSS)
+.textContent - Pegar o conteudo de texto da TAG
+
+document.querySelectorAll(".titulo") - Busca todos os dados que tenham o mesmo selector
+numero.toFixed(2) = Limita as casas decimais
+texto.classList.add("classe") - adicionar uma classe ao HTML pelo javascript
+titulo.addEventListener("evento", function) - Ouvir o evento do componente não pode colocar a function assim "nomeFunction()" pois irá somente retornar o valor da função.
+event.preventDefault() - previne o comportamento padrão do componente
+document.createElement("div") - Cria um elemento no html
+nomePai.appendChild(nomeFilho) - cria dentro de uma tag pai um filho
+form.reset - limpa o formulario
+this.elemento -  referencia o elemento responsavel pela ação.
+text.innerHTML - acessa os valores internos de um document (Com a propriedade innerHTML, podemos obter o conteúdo HTML (HTML interno) de um elemento.)
+event.target -  Seleciona quem foi clicado
+event.target.parentNode - pega o nivel mais acima de onde ouve o evento
+.remove() - remove uma tag
+new RegExp(value,"i") - Filtra por letra a expressão, o valor "i" desconsidera maiucusla ou minuscula.
+
+
+
+
+
